@@ -11,8 +11,6 @@ class Saml2aws < Formula
     sha256 'd4a58665b712a737e60215c2fb48a5dc18d9f7c35154babece7e4c5ab4574150'
   end
 
-  depends_on :arch => :x86_64
-
   def install
     bin.install 'saml2aws'
   end
